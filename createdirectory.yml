@@ -1,8 +1,10 @@
 ---
  - hosts: localhost
    become: true
+   become_user: kiran
    tasks:
    - name: create file
+     become_user: kiran
      file:
        path: /home/kiran/sanvika
        state: touch
