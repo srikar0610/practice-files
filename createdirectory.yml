@@ -1,7 +1,7 @@
 ---
  - hosts: localhost
    tasks:
-   - name: ansible create directory with mode setting example
+   - name: create file
      file:
        path: /root/sanvika
        state: touch
