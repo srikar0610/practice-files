@@ -4,5 +4,5 @@
    - name: ansible create directory with mode setting example
      file:
        path: /root/devops_directory
-       state: directory
+       state: touch
        mode: "0777"
