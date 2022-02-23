@@ -1,8 +1,9 @@
 ---
  - hosts: localhost
+   become: true
    tasks:
    - name: create file
      file:
-       path: /root/sanvika
+       path: "/root/sanvika"
        state: touch
-       mode: "0777"
+       mode: 0777
