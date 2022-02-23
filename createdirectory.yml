@@ -4,6 +4,6 @@
    tasks:
    - name: create file
      file:
-       path: "/root/sanvika"
+       path: "/home/kiran/sanvika"
        state: touch
        mode: 0777
