@@ -1,5 +1,5 @@
 ---
- - hosts: all
+ - hosts: localhost
    tasks:
    - name: ansible create directory with mode setting example
      file:
